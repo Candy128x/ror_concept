@@ -2,7 +2,7 @@
 
 ---
 ## Software Requirements
-- Name of Software: Software v3.7.*
+- Ruby: 2.6.3-p62
 
 
 ---
