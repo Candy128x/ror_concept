@@ -3,9 +3,9 @@
 ---
 ## Software Requirements
 - Ruby: 2.6.3-p62
-
+- Rails: 5.2.3
 
 ---
-## OutPut of File: FileName.html
-	- Some description..
-<kbd><img src="/imgs-readme/img-black-blank_v1-1.jpg" alt="img_alternative_txt_v1-1" title="hover_title.."></img></kbd>
+## Rails default page
+- Hit http://localhost:3000/ in browser
+<kbd><img src="/imgs-readme/rails-default-page_v1-1.png" alt="img_alternative_txt_v1-1" title=""></img></kbd>
