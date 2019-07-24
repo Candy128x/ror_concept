@@ -1,5 +1,31 @@
 # Types of variable
 
+print "Hello Ruby Developer\n"
+
+# Type casting
+puts 3.14.to_i
+puts 3.13.to_f
+puts 3.13.to_s
+
+greeting = 'Hello'
+# indexes = 12345
+
+puts greeting.length
+puts "length of greeting = #{greeting.length}"
+puts "greeting[1] = " + greeting[1]
+puts "greeting.include? 'hi' = #{greeting.include? 'hi'}"
+puts "greeting.include? 'llo' = #{greeting.include? 'llo'}"
+puts "greeting[1,3] = #{greeting[1,3]}"
+
+
+# Take value from users, CLI
+puts "Enter your name.."
+name = gets
+puts "Hello #{name}, How are you"
+puts "Whats your age.."
+age = gets.chomp
+puts "You are #{age} old"
+
 
 # Global Variable
 
@@ -85,10 +111,27 @@ obj.show
 ## Output:
 
 $ ruby variables_type.rb
+Hello Ruby Developer
+3
+3.13
+3.13
+5
+length of greeting = 5
+greeting[1] = e
+greeting.include? 'hi' = false
+greeting.include? 'llo' = true
+greeting[1,3] = ell
+Enter your name..
+Ashish
+Hello Ashish
+, How are you
+Whats your age..
+23
+You are 23 old
 Hello Dev
 Welcom in Ruby World Dev
-Your Name: Shiv
-Your eMail ID: shiv@d.com
+Your Name: Shiv 
+Your eMail ID: shiv@d.com 
 Your Contact No.: 9819121212
 Total No of users: 1
 Total No of users: 2

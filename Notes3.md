@@ -17,8 +17,14 @@ Hello ruby Developer
 - for exit
 - => exit
 
+---
+## Ruby
+- Do more with less code
+
 
 ---
+## Rails
+- MVC pettern
 
 
 
