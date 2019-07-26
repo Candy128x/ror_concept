@@ -78,6 +78,25 @@ puts "\n5times do.."
     puts index
 end
 
+puts "\n--yield statement--"
+def test
+    puts "test method"
+    yield 
+    puts "statement of test method"
+    yield
+end
+test {puts "You are in the block"}
+
+
+puts "\n--yield statement--2"
+def test
+    puts "test method"
+    yield 5
+    puts "statement of test method"
+    yield 20
+end
+test {|i| puts "You are in the block with i = #{i}"}
+
 
 =begin
 
@@ -146,5 +165,21 @@ Redo statement executed
 Redo statement executed
 Redo statement executed
 Redo statement exe...(infinite)
+
+5times do..
+0
+1
+2
+3
+4
+
+puts "\n--yield statement--"
+def test
+    puts "test method"
+    yield 
+    puts "statement of test method"
+    yield
+end
+test {puts "You are in the block"}
 
 =end
