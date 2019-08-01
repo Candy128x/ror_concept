@@ -2,7 +2,7 @@
 
 class Chef
     attr_accessor :name, :age
-     def initialize(name, age)
+     def initialize(name, age) # constructor
         @name = name
         @age = age
     end

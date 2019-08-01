@@ -37,7 +37,7 @@ puts "\neach do loop"
 end
 
 
-# brack statement
+# break statement
 puts "\nBreak the Loop"
 for i in 0..5
     if i > 2 then
